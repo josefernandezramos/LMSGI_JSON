@@ -1,0 +1,68 @@
+{
+    "pokemons": [
+      {
+        "id": 101,
+        "nombre": "Pikachu",
+        "tipos": ["Electric"],
+        "peso": 600, 
+        "altura": 40, 
+        "estadisticas": {
+          "velocidad": 90,
+          "fortaleza": 55,
+          "precision": 100,
+          "resistencia": 35
+        },
+        "movimientos": [
+          {
+            "nombre": "Thunderbolt",
+            "descripcion": "Un rayo eléctrico que puede paralizar al oponente.",
+            "potencia": 90,
+            "contacto": false
+          },
+          {
+            "nombre": "Quick Attack",
+            "descripcion": "Un ataque rápido que permite al usuario atacar primero.",
+            "potencia": 40,
+            "contacto": true
+          }
+        ],
+        "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        "evoluciones": [
+          {
+            "id": 102,
+            "nivel": 22
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "nombre": "Raichu",
+        "tipos": ["Electric"],
+        "peso": 3000,
+        "altura": 80,
+        "estadisticas": {
+          "velocidad": 110,
+          "fortaleza": 90,
+          "precision": 100,
+          "resistencia": 60
+        },
+        "movimientos": [
+          {
+            "nombre": "Thunder",
+            "descripcion": "Un potente rayo eléctrico que tiene una alta posibilidad de causar daño crítico.",
+            "potencia": 110,
+            "contacto": false
+          },
+          {
+            "nombre": "Iron Tail",
+            "descripcion": "Un ataque en el que el usuario usa su cola como un hierro para golpear al oponente.",
+            "potencia": 100,
+            "contacto": true
+          }
+        ],
+        "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+        "evoluciones": []
+      }
+    ]
+  }
+  
