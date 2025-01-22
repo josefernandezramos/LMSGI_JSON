@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Arxiu XML que representa els productes d'una botiga online -->
+<botiga>
+    <!-- Producte 1 -->
+    <producte codi="P001">
+        <nom>Xolo X1000</nom>
+        <descripcio>Smartphone de nova generació amb pantalla OLED i càmera de 108 MP.</descripcio>
+        <preu moneda="EUR">799.99</preu>
+        <categoria>Electrònica</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge>https://www.mojandroid.sk/wp-content/uploads/2013/03/xolo-x1000-1200x800.jpg</imatge>
+        <anyoFabricació>2024</anyoFabricació>
+        <color>Gris Espacial</color>
+    </producte>
+
+    <!-- Producte 2 -->
+    <producte codi="P002">
+        <nom>Lenovo Pro 15</nom>
+        <descripcio>Portàtil de 15 polzades amb processador Intel i 16 GB de RAM.</descripcio>
+        <preu moneda="EUR">1299.99</preu>
+        <categoria>Informàtica</categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <imatge>https://m.media-amazon.com/images/I/61rjDYLw78L.jpg</imatge>
+        <anyoFabricació>2024</anyoFabricació>
+        <color>Negro mate</color>
+    </producte>
+</botiga>
